@@ -1,0 +1,95 @@
+# .NET Core
+project.lock.json
+.project.json
+.ionide
+
+# Build directories
+bin/
+obj/
+
+# Global rules
+.DS_Store
+*.pfx
+*.user
+*.suo
+*.userprefs
+
+*.log
+*.sln.docstates
+
+# Rider files
+.idea/
+
+# User-specific files
+_ReSharper.*/
+*.resharper
+*.DotSettings.user
+
+# Visual Studio devenv private settings
+*.dotCover
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# TeamCity is a build add-in
+_TeamCity
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+
+# VS Code files
+.vscode/
+
+# NuGet Packages Directory
+packages/
+
+# NuGet Symbol Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# MSBuild Dump file
+*.binlog
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Azure DevOps pipeline cache
+pipelines-cache/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Database files
+*.db
+
+# Test Results
+TestResults/
+
+# .NET Core
+project.lock.json
+.project.json
+.ionide
+
+# Azure Functions localsettings file
+local.settings.json
+
+# Ignore appsettings
+**/appsettings.json
+
+# Ignore all in wwwroot folder
+**/wwwroot/**
+
+# The .vs folder (this is Visual Studio's workspace settings folder)
+.vs/
+
+# Vscode tasks and launch settings
+.vscode/
+
+# Ignore all log files
+*.
