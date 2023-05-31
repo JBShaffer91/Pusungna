@@ -1,0 +1,9 @@
+@model Pusungna.Models.BlogPost
+
+<h2>Edit Blog Post</h2>
+
+<form asp-action="Edit">
+    <input asp-for="BlogPostId" type="hidden" />
+    <!-- Include rest of the form as in Create view -->
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

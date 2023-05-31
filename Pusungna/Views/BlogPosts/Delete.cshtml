@@ -1,0 +1,11 @@
+@model Pusungna.Models.BlogPost
+
+<h2>Delete Blog Post</h2>
+
+<p>Are you sure you want to delete the blog post titled "@Model.Title"?</p>
+
+<form asp-action="DeleteConfirmed">
+    <input asp-for="BlogPostId" type="hidden" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

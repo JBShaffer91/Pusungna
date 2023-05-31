@@ -1,0 +1,17 @@
+@model IEnumerable<Pusungna.Models.BlogPost>
+
+<h1>Blog Posts</h1>
+
+@foreach (var post in Model)
+{
+    <div class="card mb-4">
+        <div class="card-body">
+            <h2 class="card-title">@post.Title</h2>
+            <p class="card-text">@post.Summary</p>
+            <a href="@Url.Action("Details", "BlogPost", new { id = post.BlogPostId })" class="btn btn-primary">Read More &rarr;</a>
+        </div>
+        <div class="card-footer text-muted">
+            Posted on @post.PublishDate.ToString("MMMM dd, yyyy") by @post.Author
+        </div>
+    </div>
+}
